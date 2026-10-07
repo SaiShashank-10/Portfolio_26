@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { COPY, PROFILE } from "@/lib/data";
+import { withBasePath } from "@/lib/basePath";
 import { prefersReducedMotion, useReducedMotion } from "@/lib/hooks";
 import SectionHeading from "../ui/SectionHeading";
 
@@ -102,7 +103,11 @@ export default function About() {
           <p className="about-quote">“{PROFILE.quote}”</p>
           <span className="sr-only">{PROFILE.quoteSource}</span>
           <div className="about-links">
-            <a className="button button-primary" href={PROFILE.resume} download>
+            <a
+              className="button button-primary"
+              href={withBasePath(PROFILE.resume)}
+              download
+            >
               {COPY.ui.resume} ↓
             </a>
             <a
@@ -221,7 +226,7 @@ export default function About() {
                   </span>
                   <span className="id-photo">
                     <img
-                      src="/portrait-bust.webp"
+                      src={withBasePath("/portrait-bust.webp")}
                       alt={PROFILE.portraitAlt}
                       width="128"
                       height="156"

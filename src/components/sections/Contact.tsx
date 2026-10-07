@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { COPY, PROFILE } from "@/lib/data";
+import { withBasePath } from "@/lib/basePath";
 import { scrollToTarget } from "@/lib/scroll";
 export default function Contact() {
   const [copied, setCopied] = useState(false),
@@ -101,7 +102,7 @@ export default function Contact() {
             <a href={PROFILE.linkedin} target="_blank" rel="noreferrer">
               {COPY.ui.linkedin} ↗
             </a>
-            <a href={PROFILE.resume} download>
+            <a href={withBasePath(PROFILE.resume)} download>
               {COPY.ui.resume} ↓
             </a>
           </div>

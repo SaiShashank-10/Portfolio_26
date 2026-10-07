@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { PROFILE } from "@/lib/data";
+import { withBasePath } from "@/lib/basePath";
 import "./globals.css";
 
 const inter = localFont({
@@ -34,19 +35,26 @@ const mono = localFont({
 export const metadata: Metadata = {
   title: `${PROFILE.name} — ${PROFILE.role}`,
   description: `${PROFILE.degree} at ${PROFILE.institute}. DevPool, Gen-Lib, PixelPulse, Nethra and Hotel Management System.`,
-  metadataBase: new URL(PROFILE.website),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? PROFILE.website),
   openGraph: {
     title: PROFILE.name,
     description: PROFILE.role,
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: PROFILE.name }],
+    images: [
+      {
+        url: withBasePath("/og.jpg"),
+        width: 1200,
+        height: 630,
+        alt: PROFILE.name,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: PROFILE.name,
-    images: ["/og.jpg"],
+    images: [withBasePath("/og.jpg")],
   },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: withBasePath("/favicon.svg") },
 };
 export const viewport: Viewport = {
   themeColor: "#f4f2ee",
@@ -64,7 +72,7 @@ export default function RootLayout({
       <head>
         <link
           rel="preload"
-          href="/hero/poster.webp"
+          href={withBasePath("/hero/poster.webp")}
           as="image"
           fetchPriority="high"
         />

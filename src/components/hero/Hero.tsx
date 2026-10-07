@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { PROFILE, COPY } from "@/lib/data";
+import { withBasePath } from "@/lib/basePath";
 import { prefersReducedMotion } from "@/lib/hooks";
 import { scrollToTarget } from "@/lib/scroll";
 
@@ -163,7 +164,7 @@ export default function Hero() {
       <div className="hero-film">
         <img
           className="hero-poster"
-          src="/hero/poster.webp"
+          src={withBasePath("/hero/poster.webp")}
           alt=""
           aria-hidden="true"
           width="768"
@@ -178,12 +179,12 @@ export default function Hero() {
           preload="auto"
           className={videoReady ? "video-ready" : ""}
           onPlaying={() => setVideoReady(true)}
-          poster="/hero/poster.webp"
+          poster={withBasePath("/hero/poster.webp")}
           aria-label={PROFILE.videoText}
           aria-describedby="video-description"
         >
-          <source src="/hero/hero.webm" type="video/webm" />
-          <source src="/hero/hero.mp4" type="video/mp4" />
+          <source src={withBasePath("/hero/hero.webm")} type="video/webm" />
+          <source src={withBasePath("/hero/hero.mp4")} type="video/mp4" />
         </video>
       </div>
       <div className="hero-copy">
@@ -221,7 +222,7 @@ export default function Hero() {
             <span aria-hidden="true">↗</span>
           </a>
         </div>
-        <a className="hero-resume" href={PROFILE.resume} download>
+        <a className="hero-resume" href={withBasePath(PROFILE.resume)} download>
           {COPY.hero.resume}
         </a>
       </div>
