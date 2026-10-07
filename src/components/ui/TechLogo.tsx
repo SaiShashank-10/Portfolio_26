@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/basePath";
+
 export const BRAND: Record<string, string> = {
   "Apache NetBeans": "apachenetbeanside",
   Cloudinary: "cloudinary",
@@ -53,7 +55,7 @@ export default function TechLogo({
   if (isBrand(name))
     return (
       <img
-        src={`/logos/${BRAND[name]}.svg`}
+        src={withBasePath(`/logos/${BRAND[name]}.svg`)}
         alt=""
         aria-hidden="true"
         width={size}

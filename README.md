@@ -278,7 +278,10 @@ Inspect the evidence in [`verification-summary.json`](reports/verification-summa
 
 ## Deployment
 
-Deploy this as a standard Next.js application on a Node.js host or Vercel. On a Node.js host:
+This repository now deploys to **GitHub Pages** through [`.github/workflows/deploy-github-pages.yml`](.github/workflows/deploy-github-pages.yml).  
+Enable **Settings → Pages → Source: GitHub Actions**, then push to the default branch.
+
+You can still run it on a standard Node.js host or Vercel. On a Node.js host:
 
 ```sh
 npm ci
@@ -290,7 +293,8 @@ Keep the Node process running through the host's service manager. Stop an existi
 
 Before publishing:
 
-- Set `PROFILE.website` to the owner's approved production URL; metadata uses it as the base for sharing assets.
+- Set `PROFILE.website` to the owner's approved production URL for non-Pages hosting.
+- For GitHub Pages, the workflow sets `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_BASE_PATH` automatically from the repository owner/name.
 - Confirm the résumé, local fonts, logos, video formats, poster, favicon, and OG image are included.
 - Check documentation and repository destinations, video playback, keyboard navigation, and the mobile layout.
 - Run the production checks on the actual release.
