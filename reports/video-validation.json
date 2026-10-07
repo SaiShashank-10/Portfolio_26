@@ -1,0 +1,9 @@
+{
+  "frames": 228,
+  "visual_seam_mean_pixel_difference": 1.9225983796296295,
+  "typical_adjacent_frame_difference": 0.4816623263888889,
+  "audio_samples": 456704,
+  "audio_duration": 9.514666666666667,
+  "audio_seam_delta": 0.005069193430244923,
+  "audio_adjacent_delta_p99": 0.049559272825717926
+}

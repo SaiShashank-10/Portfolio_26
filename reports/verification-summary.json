@@ -1,0 +1,193 @@
+{
+  "build": "passed",
+  "lint": "passed",
+  "typescript": "passed",
+  "playwright": {
+    "passed": 15,
+    "failed": 0,
+    "note": "14 regression tests passed in full run; ticker test passed after correcting concurrent geometry sampling and restoring viewport visibility after keyboard navigation."
+  },
+  "first_load_js_kb": 143,
+  "overflow_checked_widths": [
+    360,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "lighthouse": {
+    "mobile": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "timestamp": "2026-10-06T03:23:01.590Z"
+    },
+    "desktop": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "timestamp": "2026-10-06T03:23:13.623Z"
+    }
+  },
+  "resume_copy_sha256": "185978522b9550eecf6d240fad0622d39876e7adfc84760d9643a8a65abbec5d",
+  "resume_copy_matches_source": true,
+  "project_clipping_checks": {
+    "projects": 5,
+    "viewport_widths": [
+      390,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "failures": 0
+  },
+  "font_bytes": {
+    "before": 128436,
+    "after": 65296
+  },
+  "premium_pass": {
+    "sections": 8,
+    "navigation": true,
+    "project_index_keyboard": "passed",
+    "award_content_overlap": false,
+    "award_content_overflow": false,
+    "screenshots": [
+      390,
+      1440
+    ]
+  },
+  "hero_refinement": {
+    "build": "passed",
+    "playwright": "5 passed",
+    "independent_letter_hover": "passed",
+    "first_load_js_kb": 131,
+    "mobile_performance_runs": [
+      89,
+      94
+    ],
+    "desktop_performance": 100
+  },
+  "certificate_flip": {
+    "hover": true,
+    "keyboard": true,
+    "touch": true,
+    "reduced_motion": true,
+    "rapid_selection": true,
+    "retained_selection": true,
+    "axe_violations": 0
+  },
+  "journey": {
+    "chapter_navigation": true,
+    "scroll_progress": true,
+    "keyboard": true,
+    "touch": true,
+    "reduced_motion": true,
+    "axe_violations": 0
+  },
+  "about_upgrade": {
+    "face_controls": true,
+    "keyboard_swing": true,
+    "touch": true,
+    "reduced_motion": true,
+    "card_content_clipping": false,
+    "mobile_swing_overflow": false,
+    "axe_violations": 0,
+    "stable_edge_hover": true,
+    "rapid_hover_reentry": true
+  },
+  "menu_transitions": {
+    "build": "passed",
+    "navigation_tests_passed": 2,
+    "portfolio_regression_tests_passed": 5,
+    "repeated_open": true,
+    "escape_focus_restoration": true,
+    "scroll_lock_through_exit": true,
+    "destination_scroll": true,
+    "reduced_motion": true
+  },
+  "hero_ticker": {
+    "gsap": true,
+    "build": "passed",
+    "continuous_motion": true,
+    "adjacent_repeat_groups": true,
+    "pause_resume": true,
+    "reduced_motion": true,
+    "mobile_overflow": false,
+    "axe_violations": 0
+  },
+  "skills_upgrade": {
+    "build": "passed",
+    "skills_tests_passed": 2,
+    "portfolio_regression_tests_passed": 5,
+    "filter_indicator_alignment": true,
+    "keyboard_and_touch": true,
+    "project_navigation": true,
+    "tile_clipping": false,
+    "overflow_widths": [
+      360,
+      390,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe_violations": 0,
+    "reduced_motion": true
+  },
+  "skill_documentation": {
+    "mapped_elements": 48,
+    "skills_tests_passed": 3,
+    "keyboard_new_tab": "passed",
+    "mobile_overflow": false,
+    "inspector_axe_violations": 0,
+    "link_verification_report": "skill-docs-link-check.json"
+  },
+  "skill_pinning": {
+    "relevant_tests_passed": 9,
+    "pointer_crossing_stable": true,
+    "documentation_click": true,
+    "keyboard_pin_and_switch": true,
+    "unpin": true,
+    "filter_reset": true,
+    "axe_violations": 0
+  },
+  "skill_popup": {
+    "build": "passed",
+    "popup_tests": 2,
+    "existing_skills_and_portfolio_tests": 9,
+    "focus_trap": true,
+    "focus_restored": true,
+    "escape_backdrop_close": true,
+    "project_navigation": true,
+    "new_tab_documentation": true,
+    "mobile_landscape_fit": true,
+    "reduced_motion": true,
+    "axe_violations": 0
+  },
+  "work_upgrade": {
+    "build": "passed",
+    "work_tests_passed": 2,
+    "portfolio_regression_tests_passed": 5,
+    "projects_checked": 5,
+    "widths_checked": [
+      360,
+      390,
+      768,
+      1098,
+      1200,
+      1440,
+      1920
+    ],
+    "clipped_content": false,
+    "hover_switching": true,
+    "keyboard_focus_preserved": true,
+    "axe_violations": 0,
+    "backup": ".backups/before-work-upgrade-2026-10-07",
+    "backup_files_checksum_verified": 39,
+    "stationary_pointer_stable": true
+  }
+}

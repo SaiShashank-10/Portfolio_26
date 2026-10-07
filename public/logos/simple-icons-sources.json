@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Apache NetBeans IDE",
+    "slug": "apachenetbeanside",
+    "source": "https://apache.org/logos",
+    "license": {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    },
+    "hex": "1B6AC6"
+  },
+  {
+    "title": "Cloudinary",
+    "slug": "cloudinary",
+    "source": "https://cloudinary.com",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "3448C5"
+  },
+  {
+    "title": "Hugging Face",
+    "slug": "huggingface",
+    "source": "https://huggingface.co/brand",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "FFD21E"
+  },
+  {
+    "title": "MediaPipe",
+    "slug": "mediapipe",
+    "source": "https://developers.google.com/static/mediapipe/images/mediapipe_icon.svg",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "0097A7"
+  },
+  {
+    "title": "Razorpay",
+    "slug": "razorpay",
+    "source": "https://razorpay.com/newsroom/brand-assets/",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "0C2451"
+  },
+  {
+    "title": "TensorFlow",
+    "slug": "tensorflow",
+    "source": "https://www.tensorflow.org",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "FF6F00"
+  },
+  {
+    "title": "YOLO",
+    "slug": "yolo",
+    "source": "https://www.ultralytics.com/brand",
+    "license": "See upstream source and Simple Icons disclaimer",
+    "hex": "111F68"
+  }
+]

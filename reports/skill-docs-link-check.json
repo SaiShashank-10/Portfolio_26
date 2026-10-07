@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Java",
+    "url": "https://dev.java/learn/",
+    "status": 200,
+    "final_url": "https://dev.java/learn/",
+    "title": "Learn Java - Dev.java"
+  },
+  {
+    "name": "C",
+    "url": "https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html",
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "initial_http_check_url": "https://www.gnu.org/software/c-intro-and-ref/manual/html_node/",
+    "verification_note": "Confirmed GNU manual in web search; direct fetch timed out."
+  },
+  {
+    "name": "Python",
+    "url": "https://docs.python.org/3/",
+    "status": 200,
+    "final_url": "https://docs.python.org/3/",
+    "title": "3.14.8 Documentation"
+  },
+  {
+    "name": "SQL",
+    "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "status": 200,
+    "final_url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "title": "PostgreSQL: Documentation: 18: Chapter\u00a02.\u00a0The SQL Language"
+  },
+  {
+    "name": "Dart",
+    "url": "https://dart.dev/guides",
+    "status": 200,
+    "final_url": "https://dart.dev/docs",
+    "title": "Dart documentation"
+  },
+  {
+    "name": "JavaScript",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "status": 200,
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "title": "JavaScript | MDN"
+  },
+  {
+    "name": "HTML",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "status": 200,
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "title": "HTML: HyperText Markup Language | MDN"
+  },
+  {
+    "name": "CSS",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "status": 200,
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "title": "CSS: Cascading Style Sheets | MDN"
+  },
+  {
+    "name": "React.js",
+    "url": "https://react.dev/learn",
+    "status": 200,
+    "final_url": "https://react.dev/learn",
+    "title": "Quick Start \u2013 React"
+  },
+  {
+    "name": "Flutter",
+    "url": "https://docs.flutter.dev/",
+    "status": 200,
+    "final_url": "https://docs.flutter.dev/",
+    "title": "Flutter documentation"
+  },
+  {
+    "name": "Next.js",
+    "url": "https://nextjs.org/docs",
+    "status": 200,
+    "final_url": "https://nextjs.org/docs",
+    "title": "Next.js Docs | Next.js"
+  },
+  {
+    "name": "Streamlit",
+    "url": "https://docs.streamlit.io/",
+    "status": 200,
+    "final_url": "https://docs.streamlit.io/",
+    "title": "Streamlit documentation"
+  },
+  {
+    "name": "Firebase",
+    "url": "https://firebase.google.com/docs",
+    "status": 200,
+    "final_url": "https://firebase.google.com/docs",
+    "title": "Firebase Documentation"
+  },
+  {
+    "name": "FastAPI",
+    "url": "https://fastapi.tiangolo.com/",
+    "status": 200,
+    "final_url": "https://fastapi.tiangolo.com/",
+    "title": "FastAPI - FastAPI"
+  },
+  {
+    "name": "Node.js",
+    "url": "https://nodejs.org/docs/latest/api/",
+    "status": 200,
+    "final_url": "https://nodejs.org/docs/latest/api/",
+    "title": "Index | Node.js v26.10.0 Documentation"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com/docs",
+    "status": 200,
+    "final_url": "https://supabase.com/docs",
+    "title": "Supabase Docs"
+  },
+  {
+    "name": "Cloudflare Workers",
+    "url": "https://developers.cloudflare.com/workers/",
+    "status": 200,
+    "final_url": "https://developers.cloudflare.com/workers/",
+    "title": "Overview \u00b7 Cloudflare Workers docs"
+  },
+  {
+    "name": "Razorpay API",
+    "url": "https://razorpay.com/docs/api/",
+    "status": 200,
+    "final_url": "https://razorpay.com/docs/api/",
+    "title": "API Reference Guide - Razorpay"
+  },
+  {
+    "name": "PostgreSQL",
+    "url": "https://www.postgresql.org/docs/current/",
+    "status": 200,
+    "final_url": "https://www.postgresql.org/docs/current/",
+    "title": "PostgreSQL: Documentation: 18: PostgreSQL 18.6 Documentation"
+  },
+  {
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/docs",
+    "status": 200,
+    "final_url": "https://code.visualstudio.com/docs",
+    "title": "Documentation for Visual Studio Code"
+  },
+  {
+    "name": "Git",
+    "url": "https://git-scm.com/doc",
+    "status": 200,
+    "final_url": "https://git-scm.com/doc",
+    "title": "Redirecting&hellip;"
+  },
+  {
+    "name": "GitHub Actions",
+    "url": "https://docs.github.com/en/actions",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/actions",
+    "title": "GitHub Actions documentation - GitHub Docs"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com/help/",
+    "error": "HTTP Error 403: Forbidden",
+    "initial_http_check_url": "https://www.canva.com/help/",
+    "verification_note": "Confirmed official help center in web search; automated HTTP fetch blocked with 403."
+  },
+  {
+    "name": "Hugging Face Spaces",
+    "url": "https://huggingface.co/docs/hub/spaces",
+    "status": 200,
+    "final_url": "https://huggingface.co/docs/hub/spaces",
+    "title": "Spaces \u00b7 Hugging Face"
+  },
+  {
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com/documentation",
+    "status": 200,
+    "final_url": "https://cloudinary.com/documentation",
+    "title": "Cloudinary Image &amp; Video API Platform - Docs Home Page | Documentation"
+  },
+  {
+    "name": "Monaco Editor",
+    "url": "https://microsoft.github.io/monaco-editor/docs.html",
+    "status": 200,
+    "final_url": "https://microsoft.github.io/monaco-editor/docs.html",
+    "title": "Monaco Editor"
+  },
+  {
+    "name": "Apache NetBeans",
+    "url": "https://netbeans.apache.org/tutorial/main/kb/docs/",
+    "error": "HTTP Error 404: Not Found",
+    "initial_http_check_url": "https://netbeans.apache.org/front/main/kb/",
+    "verification_note": "Replaced retired URL; official tutorial index opened and verified with web tool."
+  },
+  {
+    "name": "Plotly",
+    "url": "https://plotly.com/python/",
+    "status": 200,
+    "final_url": "https://plotly.com/python/",
+    "title": "Open Source Python Graphing &amp; Data Visualization Library | Plotly"
+  },
+  {
+    "name": "Spotipy",
+    "url": "https://spotipy.readthedocs.io/en/2.25.1/",
+    "status": 200,
+    "final_url": "https://spotipy.readthedocs.io/en/2.25.1/",
+    "title": "Welcome to Spotipy! &mdash; spotipy 2.0 documentation"
+  },
+  {
+    "name": "Computer Vision",
+    "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+    "error": "HTTP Error 403: Forbidden",
+    "initial_http_check_url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+    "verification_note": "Official tutorial page opened and verified with web tool; urllib blocked with 403."
+  },
+  {
+    "name": "Agentic AI",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "status": 200,
+    "final_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "title": "Welcome to the \ud83e\udd17 AI Agents Course \u00b7 Hugging Face"
+  },
+  {
+    "name": "Cerebras AI",
+    "url": "https://inference-docs.cerebras.ai/",
+    "status": 200,
+    "final_url": "https://inference-docs.cerebras.ai/",
+    "title": "Build at the Speed of Cerebras - Cerebras Inference"
+  },
+  {
+    "name": "MediaPipe",
+    "url": "https://ai.google.dev/edge/mediapipe/solutions/guide",
+    "status": 200,
+    "final_url": "https://developers.google.com/edge/mediapipe/solutions/guide",
+    "title": "MediaPipe Solutions guide &nbsp;|&nbsp; Google AI Edge &nbsp;|&nbsp; Google for Developers"
+  },
+  {
+    "name": "YOLOv8",
+    "url": "https://docs.ultralytics.com/models/yolov8/",
+    "status": 200,
+    "final_url": "https://docs.ultralytics.com/models/yolov8",
+    "title": "Explore Ultralytics YOLOv8"
+  },
+  {
+    "name": "OpenAI CLIP",
+    "url": "https://github.com/openai/CLIP",
+    "status": 200,
+    "final_url": "https://github.com/openai/CLIP",
+    "title": "GitHub - openai/CLIP: CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image \u00b7 GitHub"
+  },
+  {
+    "name": "Hugging Face (ViT)",
+    "url": "https://huggingface.co/docs/transformers/model_doc/vit",
+    "status": 200,
+    "final_url": "https://huggingface.co/docs/transformers/model_doc/vit",
+    "title": "Vision Transformer (ViT) \u00b7 Hugging Face"
+  },
+  {
+    "name": "OpenCV",
+    "url": "https://docs.opencv.org/4.x/",
+    "error": "HTTP Error 403: Forbidden",
+    "initial_http_check_url": "https://docs.opencv.org/4.x/",
+    "verification_note": "Official module index opened and verified with web tool; urllib blocked with 403."
+  },
+  {
+    "name": "Scikit-learn",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "status": 200,
+    "final_url": "https://scikit-learn.org/stable/user_guide.html",
+    "title": "User Guide &#8212; scikit-learn 1.9.1 documentation"
+  },
+  {
+    "name": "On-device ML",
+    "url": "https://ai.google.dev/edge/litert",
+    "status": 200,
+    "final_url": "https://developers.google.com/edge/litert",
+    "title": "LiteRT: High-Performance On-Device Machine Learning Framework &nbsp;|&nbsp; Google AI Edge &nbsp;|&nbsp; Google for Developers"
+  },
+  {
+    "name": "Computer Vision (YOLO/TF)",
+    "url": "https://www.tensorflow.org/tutorials/images",
+    "status": 200,
+    "final_url": "https://www.tensorflow.org/tutorials/images",
+    "title": "Computer vision with TensorFlow &nbsp;|&nbsp; TensorFlow Core"
+  },
+  {
+    "name": "REST APIs",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+  },
+  {
+    "name": "Geolocation",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+    "status": 200,
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+    "title": "Geolocation API - Web APIs | MDN"
+  },
+  {
+    "name": "Local Auth",
+    "url": "https://pub.dev/packages/local_auth",
+    "status": 200,
+    "final_url": "https://pub.dev/packages/local_auth",
+    "title": "local_auth | Flutter package"
+  },
+  {
+    "name": "GUI frameworks",
+    "url": "https://docs.flutter.dev/ui",
+    "status": 200,
+    "final_url": "https://docs.flutter.dev/ui",
+    "title": "Building user interfaces with Flutter"
+  },
+  {
+    "name": "Event Management",
+    "url": "https://www.eventbrite.com/resources/event-planning/checklist/",
+    "error": "HTTP Error 404: Not Found",
+    "initial_http_check_url": "https://www.eventbrite.com/blog/event-planning-guide/",
+    "verification_note": "Replaced missing blog URL with official checklist confirmed in web search; direct web fetch rate limited (429)."
+  },
+  {
+    "name": "Teamwork",
+    "url": "https://www.skillsyouneed.com/ips/team-working.html",
+    "status": 200,
+    "final_url": "https://www.skillsyouneed.com/ips/team-working.html",
+    "title": "Effective Team-Working | SkillsYouNeed"
+  },
+  {
+    "name": "Effective Communication",
+    "url": "https://www.skillsyouneed.com/ips/communication-skills.html",
+    "status": 200,
+    "final_url": "https://www.skillsyouneed.com/ips/communication-skills.html",
+    "title": "Communication Skills | SkillsYouNeed"
+  },
+  {
+    "name": "Leadership",
+    "url": "https://www.skillsyouneed.com/leadership-skills.html",
+    "status": 200,
+    "final_url": "https://www.skillsyouneed.com/leadership-skills.html",
+    "title": "Leadership Skills | SkillsYouNeed"
+  }
+]

@@ -1,0 +1,28 @@
+import {test,expect} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+test('hero highlights move continuously, pause accessibly and fit desktop/mobile',async({page})=>{
+ await page.setViewportSize({width:1440,height:900});await page.goto('/');
+ const ticker=page.locator('.hero-ticker');await ticker.evaluate(el=>el.scrollIntoView({behavior:'instant',block:'center'}));
+ await page.mouse.move(1,1);
+ const track=ticker.locator('.ticker-track');
+ const x=()=>track.evaluate(el=>new DOMMatrix(getComputedStyle(el).transform).m41);
+ await expect.poll(x).toBeLessThan(-2);
+ const first=await x();await page.waitForTimeout(500);expect(await x()).toBeLessThan(first-10);
+ const groups=ticker.locator('.ticker-group');
+ const seam=await groups.evaluateAll(nodes=>{const a=nodes[0].getBoundingClientRect(),b=nodes[1].getBoundingClientRect();return Math.abs(b.x-a.x-a.width);});
+ expect(seam).toBeLessThan(1);
+ await ticker.hover();await page.waitForTimeout(100);const hover=await x();await page.waitForTimeout(300);expect(await x()).toBeCloseTo(hover,1);
+ await ticker.getByRole('button',{name:'Pause scrolling highlights'}).click();await page.mouse.move(1,1);await ticker.getByRole('button').evaluate(el=>(el as HTMLElement).blur());
+ const stopped=await x();await page.waitForTimeout(300);expect(await x()).toBeCloseTo(stopped,1);
+ await page.screenshot({path:'reports/hero-ticker-desktop.png'});
+ await ticker.getByRole('button',{name:'Resume scrolling highlights'}).click();await page.keyboard.press('Tab');await ticker.evaluate(el=>el.scrollIntoView({behavior:'instant',block:'center'}));await page.mouse.move(1,1);
+ const resumed=await x();await expect.poll(x).toBeLessThan(resumed-2);
+ await page.setViewportSize({width:390,height:844});await ticker.evaluate(el=>el.scrollIntoView({behavior:'instant',block:'center'}));
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
+ await page.screenshot({path:'reports/hero-ticker-mobile.png'});
+ const scan=await new AxeBuilder({page}).include('.hero-ticker').withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();expect(scan.violations).toEqual([]);
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await expect(track).toHaveCSS('transform','none');await expect(groups.nth(1)).not.toBeVisible();
+ await expect(ticker.getByRole('button')).not.toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
+});

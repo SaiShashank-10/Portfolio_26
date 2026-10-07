@@ -1,0 +1,36 @@
+{
+  "build": "passed",
+  "lint": "passed",
+  "typescript": "passed",
+  "playwright": {
+    "passed": 5,
+    "failed": 0
+  },
+  "first_load_js_kb": 125,
+  "overflow_checked_widths": [
+    360,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "lighthouse": {
+    "mobile": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "timestamp": "2026-10-05T15:46:33.419Z"
+    },
+    "desktop": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "timestamp": "2026-10-05T15:46:45.062Z"
+    }
+  },
+  "resume_copy_sha256": "185978522b9550eecf6d240fad0622d39876e7adfc84760d9643a8a65abbec5d",
+  "resume_copy_matches_source": true
+}
